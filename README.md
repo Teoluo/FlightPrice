@@ -13,6 +13,7 @@
 
 ## 数据展示
 通过Tableau进行数据展示
+ ![image](https://github.com/Teoluo/FlightPrice/blob/master/screenshots/1.png)
 
 ## Update
 2019/3/13  针对数据提取进行改进
