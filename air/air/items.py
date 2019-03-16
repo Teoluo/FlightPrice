@@ -11,8 +11,16 @@ class FlightItem(scrapy.Item):
     depCityName = scrapy.Field()    # 起飞城市
     arrCityName = scrapy.Field()    # 着陆城市
 
-    depTime = scrapy.Field()    #起飞时间
-    arrTime = scrapy.Field()    #着陆时间
+    depYear = scrapy.Field()    #起飞时间
+    depMouth = scrapy.Field()
+    depDay = scrapy.Field()
+    depTime = scrapy.Field()
+
+    arrYear = scrapy.Field()    #着陆时间
+    arrMouth = scrapy.Field()
+    arrDay = scrapy.Field()
+    arrTime = scrapy.Field()
+
 
     price = scrapy.Field()      #价格
     TotalPrice= scrapy.Field()  #总价
